@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Features">
+        <menu>
+            <item
+                android:id="@+id/all_frag"
+                android:title="Browse" />
+            <item
+                android:id="@+id/list_frag"
+                android:title="My Bookshelf" />
+            <item
+                android:id="@+id/item_frag"
+                android:title="Add Book" />
+            <item
+                android:id="@+id/msg_frag"
+                android:title="Messages" />
+            <item
+                android:id="@+id/map_frag"
+                android:title="Map" />
+
+        </menu>
+    </item>
+
+    <group android:checkableBehavior="single">
+        <item
+                android:id="@+id/nav_exit"
+                android:title="@string/exit" />
+    </group>
+
+</menu>
